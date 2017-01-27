@@ -20,6 +20,7 @@ public class PortfolioSummaryCalculator {
         this.portfolioName = portfolioName;
 
         int totalTests = 0;
+        int totalTestRuns = 0;
         int passTests = 0;
         int failTests = 0;
         int skipTests = 0;
@@ -34,10 +35,16 @@ public class PortfolioSummaryCalculator {
         double executionPercentagePerApplication = 0;
         double passPercentagePerApplication = 0;
 
+        Map<String, Integer> testRunIdsMap = new HashMap<>();
         Map<String, Application> applicationMap = new HashMap<>();
         List<Application> applicationList = new ArrayList<Application>();
 
         for (Result result : resultList) {
+
+            if(!testRunIdsMap.containsKey(result.getTestRunId())){
+                testRunIdsMap.put(result.getTestRunId(), 0);
+            }
+
             String applicationName = result.getApplication();
 
             if (!(applicationMap.containsKey(applicationName))) {
@@ -66,6 +73,8 @@ public class PortfolioSummaryCalculator {
             applicationMap.put(applicationName, tempApp);
 
         }
+
+        totalTestRuns = testRunIdsMap.size();
 
         DecimalFormat df = new DecimalFormat("#.00");
         Iterator it = applicationMap.entrySet().iterator();
@@ -112,6 +121,7 @@ public class PortfolioSummaryCalculator {
         PortfolioSummary portfolioSummary = new PortfolioSummary();
         portfolioSummary.setPortfolioName(portfolioName);
         portfolioSummary.setTotalTests(totalTests);
+        portfolioSummary.setTotalTestRuns(totalTestRuns);
         portfolioSummary.setApplicationList(applicationList);
         portfolioSummary.setPassPercentage(passPercentagePerPortfolio);
         portfolioSummary.setExecutionPercentage(executionPercentagePerPortfolio);
@@ -123,20 +133,38 @@ public class PortfolioSummaryCalculator {
 
     public List<Result> getLatestRunsDetails(String portfolioName, List<Result> resultList, int latestRuns) {
 
-        Map<Date, Result> treeMap = new TreeMap<Date, Result>(Collections.<Date>reverseOrder());
+        Collections.sort(resultList, new Comparator<Result>() {
+            @Override
+            public int compare(Result result1, Result result2) {
+                return result2.getEndTime().compareTo(result1.getEndTime());
+            }
+        });
 
-        for (Result result : resultList) {
+        Map <String, Result> latestRunMap = new HashMap<String, Result>();
 
-            treeMap.put(result.getEndTime(), result);
+        for(Result result : resultList){
+            if(!latestRunMap.containsKey(result.getTestRunId())){
+                if(latestRunMap.size() < latestRuns){
+                    latestRunMap.put(result.getTestRunId(), result);
+                }
+            }
         }
 
         List<Result> latestRunList = new ArrayList<Result>();
-        for (int i = 0; i < treeMap.size(); i++) {
 
-            if (latestRunList.size() < latestRuns) {
-                latestRunList.add(treeMap.get(treeMap.keySet().toArray()[i]));
-            }
+        Iterator it = latestRunMap.entrySet().iterator();
+        while(it.hasNext()){
+            Map.Entry pair = (Map.Entry) it.next();
+            latestRunList.add((Result) pair.getValue());
         }
+
+        Collections.sort(latestRunList, new Comparator<Result>() {
+            @Override
+            public int compare(Result result1, Result result2) {
+                return result2.getEndTime().compareTo(result1.getEndTime());
+            }
+        });
+
         return latestRunList;
     }
 }

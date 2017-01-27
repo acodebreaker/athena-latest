@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50405826-a584-4d2b-996e-bfb338be51b0" name="Default" comment="" />
+    <list default="true" id="50405826-a584-4d2b-996e-bfb338be51b0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/barclays/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/barclays/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/barclays/SimpleCORSFilter.java" afterPath="$PROJECT_DIR$/src/main/java/com/barclays/SimpleCORSFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/barclays/controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/barclays/controller/HomeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/barclays/controller/PortfolioController.java" afterPath="$PROJECT_DIR$/src/main/java/com/barclays/controller/PortfolioController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/barclays/controller/ResultController.java" afterPath="$PROJECT_DIR$/src/main/java/com/barclays/controller/ResultController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/barclays/model/Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/barclays/model/Application.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/barclays/model/FunctionalAreaSummary.java" afterPath="$PROJECT_DIR$/src/main/java/com/barclays/model/FunctionalAreaSummary.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/barclays/model/PortfolioSummary.java" afterPath="$PROJECT_DIR$/src/main/java/com/barclays/model/PortfolioSummary.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/barclays/model/Result.java" afterPath="$PROJECT_DIR$/src/main/java/com/barclays/model/Result.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/barclays/model/ResultSummary.java" afterPath="$PROJECT_DIR$/src/main/java/com/barclays/model/ResultSummary.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/barclays/model/StatusCount.java" afterPath="$PROJECT_DIR$/src/main/java/com/barclays/model/StatusCount.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/barclays/model/TestSubType.java" afterPath="$PROJECT_DIR$/src/main/java/com/barclays/model/TestSubType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/barclays/model/TestSubTypeSummary.java" afterPath="$PROJECT_DIR$/src/main/java/com/barclays/model/TestSubTypeSummary.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/barclays/repository/ResultRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/barclays/repository/ResultRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/barclays/service/DateUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/barclays/service/DateUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/barclays/service/PortfolioService.java" afterPath="$PROJECT_DIR$/src/main/java/com/barclays/service/PortfolioService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/barclays/service/PortfolioSummaryCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/com/barclays/service/PortfolioSummaryCalculator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/barclays/service/ResultService.java" afterPath="$PROJECT_DIR$/src/main/java/com/barclays/service/ResultService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/barclays/service/ResultSummaryCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/com/barclays/service/ResultSummaryCalculator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/app/app.component.ts" afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/app.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/app/app.module.ts" afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/app/view/portfolioDashboard/portfolioSummary.component.ts" afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/view/portfolioDashboard/portfolioSummary.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/resources/index.html" />
+    </list>
     <ignored path="project-athena.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,16 +46,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SimpleCORSFilter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SimpleCORSFilter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/barclays/SimpleCORSFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#678#679#0" expanded="false" />
-                <element signature="e#727#728#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -38,7 +59,7 @@
       <file leaf-file-name="barChart.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/app/angular_charts/barChart.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="211">
               <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
@@ -48,27 +69,18 @@
       <file leaf-file-name="TestSubType.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/barclays/model/TestSubType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="-2">
               <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding>
-                <element signature="e#370#371#0" expanded="false" />
-                <element signature="e#408#409#0" expanded="false" />
-                <element signature="e#470#471#0" expanded="false" />
-                <element signature="e#524#525#0" expanded="false" />
-                <element signature="e#564#565#0" expanded="false" />
-                <element signature="e#603#604#0" expanded="false" />
-                <element signature="e#664#665#0" expanded="false" />
-                <element signature="e#720#721#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PortfolioService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PortfolioService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/barclays/service/PortfolioService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+            <state relative-caret-position="578">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -114,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/barclays/SimpleCORSFilter.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/app/testSummaryView.component.ts" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/app/barChart.component.ts" />
@@ -141,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/app/angular_charts/barChart.component.ts" />
         <option value="$PROJECT_DIR$/src/main/java/com/barclays/model/TestSubType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/barclays/service/PortfolioService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/barclays/SimpleCORSFilter.java" />
       </list>
     </option>
   </component>
@@ -215,6 +227,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -470,8 +484,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -921,18 +933,18 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3559055" sideWeight="0.16910689" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.121522695" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3559055" sideWeight="0.8308931" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3559055" sideWeight="0.18228404" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.121522695" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3559055" sideWeight="0.81771594" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1205,47 +1217,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/barclays/Application.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/barclays/SimpleCORSFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/app/app.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#678#679#0" expanded="false" />
-            <element signature="e#727#728#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/app/angular_charts/barChart.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/barclays/model/TestSubType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="e#370#371#0" expanded="false" />
-            <element signature="e#408#409#0" expanded="false" />
-            <element signature="e#470#471#0" expanded="false" />
-            <element signature="e#524#525#0" expanded="false" />
-            <element signature="e#564#565#0" expanded="false" />
-            <element signature="e#603#604#0" expanded="false" />
-            <element signature="e#664#665#0" expanded="false" />
-            <element signature="e#720#721#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/barclays/service/PortfolioService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1258,10 +1233,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/app/app.component.spec.ts">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/barclays/service/PortfolioService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="578">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/barclays/model/TestSubType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/app/angular_charts/barChart.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/barclays/SimpleCORSFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
